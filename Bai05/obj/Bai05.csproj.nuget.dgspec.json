@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sy\\source\\repos\\Bai05\\Bai05.csproj": {}
+    "C:\\Users\\Sy\\source\\repos\\BTH4_NguyenVanSy_24521542\\Bai05\\Bai05.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sy\\source\\repos\\Bai05\\Bai05.csproj": {
+    "C:\\Users\\Sy\\source\\repos\\BTH4_NguyenVanSy_24521542\\Bai05\\Bai05.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sy\\source\\repos\\Bai05\\Bai05.csproj",
+        "projectUniqueName": "C:\\Users\\Sy\\source\\repos\\BTH4_NguyenVanSy_24521542\\Bai05\\Bai05.csproj",
         "projectName": "Bai05",
-        "projectPath": "C:\\Users\\Sy\\source\\repos\\Bai05\\Bai05.csproj",
+        "projectPath": "C:\\Users\\Sy\\source\\repos\\BTH4_NguyenVanSy_24521542\\Bai05\\Bai05.csproj",
         "packagesPath": "C:\\Users\\Sy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sy\\source\\repos\\Bai05\\obj\\",
+        "outputPath": "C:\\Users\\Sy\\source\\repos\\BTH4_NguyenVanSy_24521542\\Bai05\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,6 +49,12 @@
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "System.Data.SQLite.Core": {
+              "target": "Package",
+              "version": "[1.0.119, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -67,14 +67,15 @@
             // thêmMớiToolStripMenuItem
             // 
             thêmMớiToolStripMenuItem.Name = "thêmMớiToolStripMenuItem";
-            thêmMớiToolStripMenuItem.Size = new Size(194, 34);
+            thêmMớiToolStripMenuItem.ShortcutKeys = Keys.Control | Keys.N;
+            thêmMớiToolStripMenuItem.Size = new Size(270, 34);
             thêmMớiToolStripMenuItem.Text = "Thêm mới";
             thêmMớiToolStripMenuItem.Click += thêmMớiToolStripMenuItem_Click;
             // 
             // thoátToolStripMenuItem
             // 
             thoátToolStripMenuItem.Name = "thoátToolStripMenuItem";
-            thoátToolStripMenuItem.Size = new Size(194, 34);
+            thoátToolStripMenuItem.Size = new Size(270, 34);
             thoátToolStripMenuItem.Text = "Thoát";
             thoátToolStripMenuItem.Click += thoátToolStripMenuItem_Click;
             // 
@@ -160,6 +161,7 @@
             MainMenuStrip = menuStrip1;
             Name = "Form1";
             Text = "Quản Lý Sinh Viên";
+            Load += Form1_Load;
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             toolStrip1.ResumeLayout(false);
